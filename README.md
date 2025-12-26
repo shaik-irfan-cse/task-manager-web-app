@@ -1,17 +1,21 @@
-# Task Manager Web Application
+# Task Manager Web Application (Backend)
 
-A simple web-based task manager to manage daily tasks efficiently.
+A RESTful Task Manager API built using Node.js, Express, and MongoDB.
 
 ## Features
-- Add new tasks
-- Delete tasks
-- Mark tasks as completed
-- Simple and clean UI
+- Create, read, update, and delete tasks
+- REST API architecture
+- MongoDB database integration
 
 ## Tech Stack
-- HTML
-- CSS
-- JavaScript
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
 
-## Purpose
-Built as a practice project to understand DOM manipulation and basic CRUD operations.
+## How to Run
+1. Clone the repository
+2. Install dependencies: npm install
+3. Create a .env file with MONGO_URI
+4. Run the server: npm start
+
